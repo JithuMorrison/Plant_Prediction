@@ -9,7 +9,7 @@ from io import BytesIO
 app = Flask(__name__)
 
 # Load the pre-trained model
-model = tf.keras.models.load_model(r"C:\Users\jithu\Downloads\image_classifier_model_simplified.h5")
+model = tf.keras.models.load_model("image_classifier_model_simplified.h5")
 
 # Define image dimensions
 img_width, img_height = 150, 150
